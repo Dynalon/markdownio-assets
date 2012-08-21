@@ -1,0 +1,148 @@
+/* override some settings from docs.css */
+#md-menu-inner.subnav {
+	margin-bottom: 20px;
+}
+
+body {
+	padding-top: 0px;
+	padding-bottom: 100px;
+}
+
+/* end overrides */
+.page-header h1 {
+  font-size: 60px;
+  line-height: 1.4em;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.page-header {
+	margin: 0 0 0px 0;
+	border: inherit;
+	padding-bottom: 0;
+}
+
+h1 {
+	margin-top: 1em;
+	border-bottom: 0px;
+}
+
+h2 {
+	border-bottom: 0px;
+	margin-top: 1.0em;
+	margin-bottom: 0.3em;
+}
+h3 {
+	border-bottom: 0px;
+	font-size: 20px;
+	margin-top: 0.6em;
+	margin-bottom: 0.1em;
+}
+h4 {
+	font-size: 18px;
+	margin-top: 0.4em;
+	margin-bottom: 0.1em;
+}
+#md-body h5 {
+	font-weight: normal;
+	font-size: 16px;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+}
+
+#md-body h6 {
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+}
+pre, code {
+  font-size: 13px;
+  clear: both;
+}
+
+hr {
+	margin: 15px 0px;
+}
+
+/* inpage anchors should not be styled as a link */
+a.md-inpage-anchor {
+	color: inherit;
+	text-decoration: inherit;	
+}
+
+/* Avoid "lose" images in thumbnails by allowing downscaling, but not upscaling */
+ul.thumbnails li {
+  width: auto;
+}
+ul.thumbnails li.span12 {
+  max-width: 940px;
+}
+ul.thumbnails li.span11 {
+  max-width: 860px;
+}
+ul.thumbnails li.span10 {
+  max-width: 780px;
+}
+ul.thumbnails li.span9 {
+  max-width: 700px;
+}
+ul.thumbnails li.span8 {
+  max-width: 620px;
+}
+ul.thumbnails li.span7 {
+  max-width: 540px;
+}
+ul.thumbnails li.span6 {
+  max-width: 460px;
+}
+ul.thumbnails li.span5 {
+  max-width: 380px;
+}
+ul.thumbnails li.span4 {
+  max-width: 300px;
+}
+ul.thumbnails li.span3 {
+  max-width: 220px;
+}
+ul.thumbnails li.span2 {
+  max-width: 140px;
+}
+ul.thumbnails li.span1 {
+  max-width: 60px;
+}
+/* exception for non-floatenv span3 thumbnails to match our page width of span10 */
+/* HACK TODO find a better solution
+p:not(.md-floatenv) ul.thumbnails li.span3 {
+	margin-left: 60px;	
+}
+p:not(.md-floatenv) ul.thumbnails li.span3:first-child {
+	margin-left: 20px;	
+}
+ */
+
+/* thumbnails that are in a float env need other margins
+	than those thumbnails standalone in a  p
+*/	
+.md-floatenv.md-float-left ul.thumbnails {
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+.md-floatenv.md-float-right ul.thumbnails {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.md-floatenv ul.thumbnails li {
+	margin-bottom: 0px;
+}
+
+
+/* TODO not every element should clear, only those that sperate a paragraph */
+hr, ul.thumbnails {
+	clear: both;
+}
+
+/* increase the spaceing in verbatim code blocks */
+pre code {
+	padding: 4px;
+}
+

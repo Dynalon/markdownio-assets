@@ -1,0 +1,19 @@
+.subnav a {
+  font-size: 20px;
+}
+.subnav {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.nav {
+  margin-bottom: 0;
+}
+
+.page-header {
+  padding-top: 0.4em;
+}
+
+hr {
+  
+}

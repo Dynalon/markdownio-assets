@@ -1,0 +1,7 @@
+.page-header {
+	margin: 0;
+}
+/* make the text justify, like in a newspaper */
+.md-floatenv .md-text {
+	text-align: justify;
+}

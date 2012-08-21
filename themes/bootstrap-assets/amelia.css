@@ -1,0 +1,15 @@
+h1, h2 {
+/*  color: #AD1D28; */
+/*  color: #DEBB27; */
+  text-shadow: 1px 1px 0px black;
+}
+
+a {
+	font-weight: bold;
+}
+.page-header h1 {
+  font-size: 60px;
+}
+
+hr {
+}

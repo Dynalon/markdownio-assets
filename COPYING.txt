@@ -1,0 +1,15 @@
+(C) 2012 Timo Dörr <timo@latecrew.de>
+
+Licensing information
+=====================
+
+All scripts (i.e. Javascript, Bash) and styles (Cascading Stylesheet
+definitions, .css) and other material contained in this work are covered under
+the terms of the GNU AGPL v3 license, see file LICENSE.txt for the exact
+licensing text, which can also be found here:
+<http://www.gnu.org/licenses/agpl.html>
+
+The above license does not necessarily apply to any git submodule's contained
+in this package, or the included jQuery library, which is copyrighted by the
+jQuery foundation and licensed under the terms of the MIT License.  See file
+js/min/jquery-license.txt for author and licensing conditions.
